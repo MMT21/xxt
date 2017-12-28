@@ -1,0 +1,221 @@
+body{
+     background:url(images/background.jpg); /*inserção da imagem de fundo em todo o site*/
+     color:#868686; /*cor padrão para todas as fontes*/
+     font-family: Verdana; /*definição da fonte geral incorporada do Google Fonts*/
+     font-size: 18px; /*tamanho da fonte*/ 
+     font-weight: 300; /*indica que a fonte está coonfigurada como Open Sans Light*/
+     line-height: 22px;/*altura da linha*/
+     text-align: left; /*alinhando o texto à esquerda*/
+     text-shadow:1px 1px 0px #fff; /*sombreamento para as fontes do site*/
+}
+header{
+     border-bottom: 1px solid #E0E0E0; /*borda na base da seção*/
+     height:150px;
+	 width:1200px;  
+}
+
+     header h1 a{
+          background:url(images/copy.png) ; /*logotipo*/
+          display:block; /*torna o link como um bloco, um retângulo*/
+          float:left; /*posiciona o logotipo à esquerda do site*/
+          height:166px; /*altura da imagem*/
+          text-indent:-1200; /*recuo para ocultar texto à esquerda*/
+          width:250px; /* 302px ÷ 1200px = 0.251666666666665 x 100 = 25.166666666666665%*/
+}
+
+     }
+	 nav{
+     float:right; /*posiciona menu à direita*/
+     margin-top:78px; /*distância do menu à margem superior do navegador*/
+     text-align:right; /*alinha os links à direita*/
+    width:40.83333333333333%; /* 490px ÷ 1200px = 0.4083333333333333 x 100 = 40.83333333333333%*/
+}
+nav ul{
+     list-style-type:none; /*retira os marcadores da lista*/
+}
+     nav li {
+          display: inline; /*deixa o menu na horizontal*/
+     }
+          nav ul li a{
+               margin-right: 30px; /*espaço à direita de cada link do menu*/
+          }
+          nav ul li:nth-child(5) a{
+               margin-right:0px; /*indica que o 5º elemento da lista (contato) terá a margem direita zerada*/
+          }
+nav a:link, nav a:visited{
+     color:#999;
+     font-size: 22px;
+     font-weight: 300;
+     letter-spacing: -2px; /*espaçamento entre as letras*/
+     line-height: 26px;
+     display:inline-block;
+}
+nav a.ativo:link, nav a:hover{
+     color:#FE9380; /*indica a página ativa e o link:hover*/
+}
+/*----------------------------------------------------------
+Seção .CHAMADA <<<<<========================================
+----------------------------------------------------------*/
+.chamada{
+     height:350px;
+     text-align:left;
+      width:100%; 
+}
+.user{
+width:300px;
+height:300px;
+margin-top: 13px;
+border-radius:300px;
+float:left;
+}
+.profile_info{
+width:385px;
+height:200px;
+margin-left: 50px;
+float:left;
+}
+.perfil_text{
+text-align:right;
+}
+.projeto_info{
+width:385px;
+height:200px;
+margin-left: 50px;
+float:left; 
+text-align:center;
+}
+.projeto_text{
+}
+
+
+
+     h2 span{
+          font-size: 60px;
+          font-weight: 300;
+          letter-spacing: -2px;
+          line-height: 60px;
+     }
+     .chamada h3 {
+          margin: 0 auto;
+         width:900px; /* 900px ÷ 1200px = 0.75 x 100 = 75%*/
+     }
+	 
+.
+	 /*----------------------------------------------------------
+Seção .CONTAINER - Conteúdo com 3 colunas <<<<<=============
+----------------------------------------------------------*/
+.conteudo{
+ border-radius:12px;
+     background-color:#CCC6C6;
+     height: 450px;
+    padding:30px; 
+}
+
+
+/*
+=========================
+formatação do texto
+=========================
+*/
+.conteudo h3{
+     font-weight: 300;
+     letter-spacing: -2px;
+     margin-bottom: 30px;
+     text-shadow:none;
+}
+.conteudo p{
+     background-color:#fff;
+     float:left;
+     height:160px;
+     padding:7px;
+     position:absolute;
+     width-max:360px;
+     text-align:justify;
+     top:225px;
+}
+/*
+=========================
+formatação do botão
+=========================
+*/
+span.btn{
+     font-size: 20px;
+     font-weight: 400;
+     letter-spacing: -2px;
+     height:27px;
+     margin-top: 30px;
+     position:absolute;
+     right: 1px;
+     text-align:center;
+     text-shadow:none;
+     width:120px;
+}
+span.btn a{
+     color:#fff;
+     padding: 2px 4px;
+}
+
+/*
+/*imagens*/
+
+.center{
+     margin: 0 auto;
+     max-width:1200px; /*largura máxima do layout*/
+     width: 90%; /*ajuste do layout à tela*/
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/*fim do clearfix*/
+img, picture, video, embed {
+    max-width: 100%; /*define a largura máxima em até 100%*/
+}
+h1, h2{
+    
+     font-weight: 800;
+     letter-spacing: -3px; /*espaçamento entre as letras*/
+     line-height: 60px;
+}
+h3{
+     font-size: 32px;
+     font-weight: 300;
+     letter-spacing: -2px; /*espaçamento entre as letras*/
+     line-height: 38px;
+}
+p{
+     font-weight: 300;/*modifica a força da fonte para light*/
+     letter-spacing: -1px; /*espaçamento entre as letras*/
+}
+a, a:link, a:visited{
+     color:#211919; /*cor dos links*/
+     font-weight:400; /*modifica a força da fonte para semi-bold*/
+     text-decoration:none; /*retira o sublinhado dos links*/
+}
+a:hover{
+     color:#FE5E41;
+     text-shadow:none; /*retira a sombra da fonte*/
+}
+/*----------------------------------------------------------
+Seção FOOTER - Rodape com 2 colunas <<<<<===================
+----------------------------------------------------------*/
+footer{
+     clear:both;
+     height: 50px;
+     padding: 10px 0px;
+     width:1200px;
+}
+.copyright{
+     float:left;
+     margin-left:30px;
+}
+.desenvolvedor{
+     float:right;
+}
